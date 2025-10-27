@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIMUSE - AI Music Social Media Automation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            background: white;
+            border-radius: 20px;
+            padding: 50px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .logo {
+            font-size: 64px;
+            margin-bottom: 10px;
+        }
+        
+        h1 {
+            font-size: 42px;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .tagline {
+            font-size: 20px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        
+        .description {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .genres {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 30px;
+            margin: 30px 0;
+        }
+        
+        .genres h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .genre-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            list-style: none;
+        }
+        
+        .genre-list li {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            border: 2px solid #667eea;
+            transition: transform 0.2s;
+        }
+        
+        .genre-list li:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+        }
+        
+        .platforms {
+            text-align: center;
+            margin: 30px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+        
+        .platforms h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+        
+        .platform-icons {
+            font-size: 32px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 2px solid #e0e0e0;
+        }
+        
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 20px;
+        }
+        
+        .footer-links a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.2s;
+        }
+        
+        .footer-links a:hover {
+            color: #764ba2;
+            text-decoration: underline;
+        }
+        
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            margin: 30px 0;
+            text-align: center;
+        }
+        
+        .stat {
+            flex: 1;
+        }
+        
+        .stat-number {
+            font-size: 36px;
+            font-weight: bold;
+            color: #667eea;
+        }
+        
+        .stat-label {
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">🎵</div>
+            <h1>AIMUSE</h1>
+            <p class="tagline">AI Music Social Media Automation</p>
+        </div>
+        
+        <p class="description">
+            Automated system for generating and posting high-quality AI-generated music 
+            to TikTok, Instagram Reels, and YouTube Shorts. Pushing the boundaries of 
+            AI-generated music across multiple electronic genres.
+        </p>
+        
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-number">360+</div>
+                <div class="stat-label">Posts per Month</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">6</div>
+                <div class="stat-label">Unique Genres</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">3</div>
+                <div class="stat-label">Platforms</div>
+            </div>
+        </div>
+        
+        <div class="genres">
+            <h2>Music Genres</h2>
+            <ul class="genre-list">
+                <li>🎹 Progressive House</li>
+                <li>🎧 Melodic Dubstep</li>
+                <li>🕯️ Witch House</li>
+                <li>⚡ Breakcore</li>
+                <li>🚗 Phonk</li>
+                <li>🤖 AI Showcase</li>
+            </ul>
+        </div>
+        
+        <div class="platforms">
+            <h2>Platforms</h2>
+            <p>Posting to all major short-form video platforms</p>
+            <div class="platform-icons">
+                <span title="TikTok">📱</span>
+                <span title="Instagram Reels">📸</span>
+                <span title="YouTube Shorts">🎥</span>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="footer-links">
+                <a href="terms.html">Terms of Service</a>
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="https://github.com" target="_blank">GitHub</a>
+            </div>
+            <p style="color: #999; font-size: 14px;">
+                © 2025 AIMUSE. Powered by AI. 🚀
+            </p>
+        </div>
+    </div>
+</body>
+</html>
+
